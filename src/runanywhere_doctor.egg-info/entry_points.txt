@@ -1,2 +1,0 @@
-[console_scripts]
-runanywhere-doctor = runanywhere_doctor.cli:main
