@@ -1,0 +1,55 @@
+{
+  "company": "RunAnywhere",
+  "company_slug": "runanywhere",
+  "repo": "runanywhere-doctor",
+  "package": "runanywhere_doctor",
+  "cli": "runanywhere-doctor",
+  "title": "Runanywhere Doctor",
+  "problem": "RunAnywhere has won \"fastest on device LLM+STT+TTS on Apple Silicon\" with MetalRT. They have not yet shipped a credible answer to the single question every mobile engineering manager asks before adopting an on device SDK: \"Will this model actually fit and run on the median device my user base owns - including the iPhone XS Max and the $200 Android my users in Lagos use?\" Issue 480 (crash on iPhone XS Max during model load) is the literal materialized version of that fear.",
+  "direction": "A single binary CLI + iOS/Android probe app that profiles a device's actual on device inference envelope (memory, sustained tok/s, thermal headroom, ANE/NPU availability) and emits a capability manifest the RunAnywhere control plane can use to route the right model to the right device fleet wide.",
+  "why": "The \"sustained vs. burst tok/s on iPhone\" insight is the kind of thing only people who've shipped on device ML to scale know - and Sanchit's bio (Intuit SDKs to 50M users) means he'll recognize it immediately.",
+  "terms": [
+    "runanywhere",
+    "fastest",
+    "device",
+    "apple",
+    "silicon",
+    "metalrt",
+    "shipped",
+    "credible",
+    "answer",
+    "single",
+    "question",
+    "every",
+    "mobile",
+    "engineering",
+    "manager",
+    "adopting",
+    "model",
+    "actually"
+  ],
+  "metrics": [
+    "runanywhere_coverage",
+    "fastest_risk",
+    "device_precision",
+    "apple_latency"
+  ],
+  "failure_modes": [
+    "runanywhere_drift",
+    "fastest_gap",
+    "device_misroute",
+    "apple_blindspot"
+  ],
+  "sources": [
+    "https://github.com/RunanywhereAI/runanywhere-sdks",
+    "https://github.com/RunanywhereAI/runanywhere-sdks/issues",
+    "https://huggingface.co/blog/runanywhere/metalrt-fastest-inference-apple-silicon",
+    "https://huggingface.co/blog/runanywhere/runanywhere-intro",
+    "https://x.com/sanchitmonga22/status/2030923381181223384",
+    "https://www.foundersbrief.vc/p/runanywhere",
+    "https://www.ycombinator.com/companies/runanywhere",
+    "https://www.producthunt.com/products/runanywhere",
+    "https://www.runanywhere.ai/blog/how-to-run-ai-models-locally-2026"
+  ],
+  "github_url": "https://github.com/t7r0n/runanywhere-doctor"
+}

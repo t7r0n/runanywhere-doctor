@@ -1,0 +1,18 @@
+{
+  "company": "RunAnywhere",
+  "repo": "runanywhere-doctor",
+  "metrics": [
+    "runanywhere_coverage",
+    "fastest_risk",
+    "device_precision",
+    "apple_latency"
+  ],
+  "failure_modes": [
+    "runanywhere_drift",
+    "fastest_gap",
+    "device_misroute",
+    "apple_blindspot"
+  ],
+  "minimum_cases": 144,
+  "requires_evidence_markers": true
+}
