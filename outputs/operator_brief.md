@@ -1,6 +1,6 @@
 # Operator Brief: RunAnywhere
 
-RunAnywhere gets a local, deterministic pressure test around runanywhere, fastest, and device. The useful part is not the dashboard; it is the repeatable evidence path from fixture to failure to operator action.
+RunAnywhere gets a local, deterministic pressure test around runanywhere, fastest, and device. The useful part is the repeatable evidence path from fixture to failure to operator action.
 
 ## Highest-leverage checks
 
