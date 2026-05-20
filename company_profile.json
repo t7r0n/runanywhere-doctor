@@ -5,7 +5,7 @@
   "package": "runanywhere_doctor",
   "cli": "runanywhere-doctor",
   "title": "Runanywhere Doctor",
-  "problem": "RunAnywhere has won \"fastest on device LLM+STT+TTS on Apple Silicon\" with MetalRT. They have not yet shipped a credible answer to the single question every mobile engineering manager asks before adopting an on device SDK: \"Will this model actually fit and run on the median device my user base owns - including the iPhone XS Max and the $200 Android my users in Lagos use?\" Issue 480 (crash on iPhone XS Max during model load) is the literal materialized version of that fear.",
+  "problem": "RunAnywhere has won \"fastest on device LLM+STT+TTS on Apple Silicon\" with MetalRT. They have not yet shipped a credible answer to the single question every mobile engineering manager asks before adopting an on device SDK: \"Will this model actually fit and run on the median device my user base owns \u2014 including the iPhone XS Max and the $200 Android my users in Lagos use?\" Issue 480 (crash on iPhone XS Max during model load) is the literal materialized version of that fear.",
   "direction": "A single binary CLI + iOS/Android probe app that profiles a device's actual on device inference envelope (memory, sustained tok/s, thermal headroom, ANE/NPU availability) and emits a capability manifest the RunAnywhere control plane can use to route the right model to the right device fleet wide.",
   "why": "The \"sustained vs. burst tok/s on iPhone\" insight is the kind of thing only people who've shipped on device ML to scale know - and Sanchit's bio (Intuit SDKs to 50M users) means he'll recognize it immediately.",
   "terms": [
