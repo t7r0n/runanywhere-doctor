@@ -1,0 +1,69 @@
+{
+  "company": "RunAnywhere",
+  "repo": "runanywhere-doctor",
+  "terms": [
+    "runanywhere",
+    "fastest",
+    "device",
+    "apple",
+    "silicon",
+    "metalrt",
+    "shipped",
+    "credible"
+  ],
+  "metrics": [
+    "runanywhere_coverage",
+    "fastest_risk",
+    "device_precision",
+    "apple_latency"
+  ],
+  "failure_modes": [
+    "runanywhere_drift",
+    "fastest_gap",
+    "device_misroute",
+    "apple_blindspot"
+  ],
+  "evidence_density": 17.75,
+  "pressure_index": 0.3167,
+  "blocked_share": 0.0972,
+  "review_share": 0.1319,
+  "top_leverage_points": [
+    {
+      "rank": 1,
+      "scenario": "runanywhere evidence replay",
+      "metric": "runanywhere_coverage",
+      "failure_mode": "runanywhere_drift",
+      "evidence": "ev_0044",
+      "operator_action": "block release until cited evidence is regenerated",
+      "severity": 2.611
+    },
+    {
+      "rank": 2,
+      "scenario": "apple operator packet",
+      "metric": "fastest_risk",
+      "failure_mode": "fastest_gap",
+      "evidence": "ev_0099",
+      "operator_action": "accept only if decision claims cite fixture evidence",
+      "severity": 2.556
+    },
+    {
+      "rank": 3,
+      "scenario": "device regression harness",
+      "metric": "device_precision",
+      "failure_mode": "device_misroute",
+      "evidence": "ev_0110",
+      "operator_action": "open a regression issue with trace and benchmark delta",
+      "severity": 2.528
+    },
+    {
+      "rank": 4,
+      "scenario": "fastest boundary probe",
+      "metric": "apple_latency",
+      "failure_mode": "apple_blindspot",
+      "evidence": "ev_0121",
+      "operator_action": "route to reviewer with evidence packet",
+      "severity": 2.528
+    }
+  ],
+  "readout": "RunAnywhere gets a local, deterministic pressure test around runanywhere, fastest, and device. The useful part is not the dashboard; it is the repeatable evidence path from fixture to failure to operator action."
+}
