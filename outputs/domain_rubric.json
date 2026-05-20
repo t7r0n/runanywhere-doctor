@@ -1,0 +1,67 @@
+{
+  "repo": "runanywhere-doctor",
+  "company": "RunAnywhere",
+  "rubric_axes": [
+    {
+      "axis": "runanywhere_coverage",
+      "failures": [
+        "runanywhere_drift"
+      ],
+      "evidence_required": true
+    },
+    {
+      "axis": "fastest_risk",
+      "failures": [
+        "fastest_gap"
+      ],
+      "evidence_required": true
+    },
+    {
+      "axis": "device_precision",
+      "failures": [
+        "device_misroute"
+      ],
+      "evidence_required": true
+    },
+    {
+      "axis": "apple_latency",
+      "failures": [
+        "apple_blindspot"
+      ],
+      "evidence_required": true
+    }
+  ],
+  "archetypes": [
+    {
+      "name": "runanywhere evidence replay",
+      "trigger": "runanywhere signal changes while fastest context is stale",
+      "expected": "block release until cited evidence is regenerated"
+    },
+    {
+      "name": "fastest boundary probe",
+      "trigger": "fastest handoff crosses a policy or trust boundary",
+      "expected": "route to reviewer with evidence packet"
+    },
+    {
+      "name": "device regression harness",
+      "trigger": "device behavior regresses against the last accepted fixture",
+      "expected": "open a regression issue with trace and benchmark delta"
+    },
+    {
+      "name": "apple operator packet",
+      "trigger": "apple output needs a human-readable audit packet",
+      "expected": "accept only if decision claims cite fixture evidence"
+    }
+  ],
+  "sources_used": [
+    "https://github.com/RunanywhereAI/runanywhere-sdks",
+    "https://github.com/RunanywhereAI/runanywhere-sdks/issues",
+    "https://huggingface.co/blog/runanywhere/metalrt-fastest-inference-apple-silicon",
+    "https://huggingface.co/blog/runanywhere/runanywhere-intro",
+    "https://x.com/sanchitmonga22/status/2030923381181223384",
+    "https://www.foundersbrief.vc/p/runanywhere",
+    "https://www.ycombinator.com/companies/runanywhere",
+    "https://www.producthunt.com/products/runanywhere",
+    "https://www.runanywhere.ai/blog/how-to-run-ai-models-locally-2026"
+  ]
+}

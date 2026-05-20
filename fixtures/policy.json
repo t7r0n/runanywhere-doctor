@@ -13,6 +13,28 @@
     "device_misroute",
     "apple_blindspot"
   ],
+  "domain_archetypes": [
+    {
+      "name": "runanywhere evidence replay",
+      "trigger": "runanywhere signal changes while fastest context is stale",
+      "expected": "block release until cited evidence is regenerated"
+    },
+    {
+      "name": "fastest boundary probe",
+      "trigger": "fastest handoff crosses a policy or trust boundary",
+      "expected": "route to reviewer with evidence packet"
+    },
+    {
+      "name": "device regression harness",
+      "trigger": "device behavior regresses against the last accepted fixture",
+      "expected": "open a regression issue with trace and benchmark delta"
+    },
+    {
+      "name": "apple operator packet",
+      "trigger": "apple output needs a human-readable audit packet",
+      "expected": "accept only if decision claims cite fixture evidence"
+    }
+  ],
   "minimum_cases": 144,
   "requires_evidence_markers": true
 }
