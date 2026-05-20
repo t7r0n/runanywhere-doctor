@@ -1,13 +1,13 @@
-# Operator Brief: RunAnywhere
+# Operator Brief: Offline Deployment Diagnostics
 
-RunAnywhere gets a local, deterministic pressure test around runanywhere, fastest, and device. The useful part is the repeatable evidence path from fixture to failure to operator action.
+This local harness runs a deterministic pressure test around evidence, workflow, and review. The useful part is the repeatable evidence path from fixture to failure to operator action.
 
 ## Highest-leverage checks
 
-- runanywhere evidence replay -> block release until cited evidence is regenerated (runanywhere_coverage, evidence ev_0044).
-- apple operator packet -> accept only if decision claims cite fixture evidence (fastest_risk, evidence ev_0099).
-- device regression harness -> open a regression issue with trace and benchmark delta (device_precision, evidence ev_0110).
-- fastest boundary probe -> route to reviewer with evidence packet (apple_latency, evidence ev_0121).
+- evidence replay -> block release until cited evidence is regenerated (evidence_coverage, evidence ev_0088).
+- review operator packet -> accept only if decision claims cite fixture evidence (handoff_risk, evidence ev_0099).
+- claim regression harness -> open a regression issue with trace and benchmark delta (claim_precision, evidence ev_0110).
+- handoff boundary probe -> route to reviewer with evidence packet (review_latency, evidence ev_0077).
 
 ## What makes this useful
 

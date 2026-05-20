@@ -1,7 +1,7 @@
 [project]
-name = "runanywhere-doctor"
+name = "offline-deployment-diagnostics"
 version = "0.1.0"
-description = "A single binary CLI + iOS/Android probe app that profiles a device's actual on device inference envelope (memory, sustained tok/s, thermal h"
+description = "A single binary CLI + iOS/Android probe app that profiles a device's actual on device inference envelope (memory, sustai"
 readme = "README.md"
 requires-python = ">=3.12"
 authors = [
@@ -10,7 +10,7 @@ authors = [
 dependencies = []
 
 [project.scripts]
-runanywhere-doctor = "runanywhere_doctor.cli:main"
+offline-deployment-diagnostics = "offline_deployment_diagnostics.cli:main"
 
 [dependency-groups]
 dev = [

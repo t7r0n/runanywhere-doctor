@@ -1,5 +1,5 @@
 scenario,cases,blocks,reviews,mean_severity,mean_score,top_evidence_id,recommended_action
-apple operator packet,36,4,5,2.556,0.4042,ev_0099,accept only if decision claims cite fixture evidence
-device regression harness,36,3,5,2.528,0.3848,ev_0110,open a regression issue with trace and benchmark delta
-fastest boundary probe,36,3,4,2.528,0.3762,ev_0121,route to reviewer with evidence packet
-runanywhere evidence replay,36,4,5,2.611,0.406,ev_0044,block release until cited evidence is regenerated
+claim regression harness,36,3,5,2.528,0.401,ev_0110,open a regression issue with trace and benchmark delta
+evidence replay,36,4,5,2.611,0.4205,ev_0088,block release until cited evidence is regenerated
+handoff boundary probe,36,3,4,2.528,0.3935,ev_0077,route to reviewer with evidence packet
+review operator packet,36,4,5,2.556,0.4206,ev_0099,accept only if decision claims cite fixture evidence
